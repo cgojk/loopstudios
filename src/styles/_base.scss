@@ -381,8 +381,14 @@ li{
 }
 .gallery__item{
     position:relative;
+
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
     
-    
+}
+.gallery__item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
 .gallery__container{
   gap:2em;
