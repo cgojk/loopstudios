@@ -1,0 +1,87 @@
+:root{
+
+/* ### Colors */
+  --color-primary-100: hsl(0,100%,100%);
+  --color-secondary-100: hsl(0,0%,0%);
+  --color-description: hsl(0, 3.1%, 55.5%);;
+  --color-tertiary-100: hsl(0, 0%, 85%);
+  --color-blue-100:hsl(215,30%,92%);
+  --color-blue-50:hsl(213,100%,98%);
+
+--color-header: #420f66a3;
+
+  /* ### Gradient */
+
+  /* Gradient */
+  --gradient-overlay: linear-gradient(
+    to bottom,
+    hsla(0, 0%, 0%, 0.7) 0%,
+    hsla(0, 0%, 0%, 0) 60%
+  );
+
+  
+  /* Fonts and font-weights/sizes */
+
+
+
+ 
+  /* Fonts */
+  --ff-heading:'Josefin Sans', sans-serif;
+  --ff-body: 'Alata', sans-serif;
+
+  --fw-light:300;
+  --fw-regular:400;
+
+  /* Headings (Josefin Sans) */
+  
+   --fs-hero: clamp(3rem, 6vw, 4.5rem);
+  --fs-1: clamp(2rem, 5vw, 3rem);     /* 32px → 48px */
+  --fs-2: clamp(1.75rem, 4.5vw, 2.5rem); /* 28px → 40px */
+  --fs-3: clamp(1.5rem, 4vw, 2rem);   /* 24px → 32px */
+  --fs-4: clamp(1.25rem, 3vw, 1.5rem); /* 20px → 24px */
+  --fs-5: clamp(1rem, 2.5vw, 1.25rem); /* 16px → 20px */
+
+  --lh-heading: 1;
+  --ls-heading: 0;
+
+  /* Body (Alata) */
+  --fs-body: 0.9375rem; /* 15px */
+  --lh-body: 1.65;
+
+  /* Small text */
+  --fs-small: 0.875rem; /* 14px */
+  --ls-wide: 0.3125rem; /* 5px */
+
+
+//  space 
+  --space-0: 0;
+
+  --space-100: 0.5rem;   /* 8px */
+  --space-200: 1rem;     /* 16px */
+  --space-300: 1.5rem;   /* 24px */
+  --space-400: 2rem;     /* 32px */
+  --space-500: 2.5rem;   /* 40px */
+  --space-600: 3rem;     /* 48px */
+  --space-800: 4rem;     /* 64px */
+  --space-900: 5rem;     /* 80px */
+
+
+
+
+  /* layout/design sizes */
+  --header-top-space: clamp(7rem, 6.85vw, 6rem);
+  --header-bottom-space: clamp(1.2rem, 2.28vw, 3rem);
+  --nav-max-width: 74rem;
+  --logo-size: clamp(5rem, 12vw, 7rem);
+
+  --hero-bottom-space: clamp(6rem, 13.7vw, 7rem);
+  --hero-action-max-width: 20rem;
+  --hero-action-bottom-space: clamp(2rem, 4.57vw, 2.5rem);
+
+  /* border radius */
+  --radius-md: 8rem;
+  --radius-sm:4rem;
+}
+
+
+
